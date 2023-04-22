@@ -2,7 +2,10 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
+import tensorflow.compat.v2 as tf
+tf.compat.v1.enable_v2_behavior()
 from keras.models import load_model
+
 import streamlit as st
 from sklearn.metrics import mean_squared_error
 import plotly.graph_objs as go
