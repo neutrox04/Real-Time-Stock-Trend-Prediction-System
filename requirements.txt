@@ -10,3 +10,4 @@ ta==0.10.2
 textblob==0.15.3
 tf==1.0.0
 yfinance==0.2.4
+tensorflow==2.10.0
