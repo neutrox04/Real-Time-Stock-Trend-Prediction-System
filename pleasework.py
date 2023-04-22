@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
-from keras.models import load_model
+
 import streamlit as st
 from sklearn.metrics import mean_squared_error
 import plotly.graph_objs as go
