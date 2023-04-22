@@ -84,15 +84,8 @@ data_training_array = scaler.fit_transform(data_training)
 
 #Load my model
 
-# Define the URL where the model is stored
-model_url = "https://github.com/neutrox04/Real-Time-Stock-Trend-Prediction-System/blob/main/adani.h5"
+model = load_model('adani.h5')
 
-# Download the model file
-with urlopen(model_url) as response:
-    model_file = response.read()
-
-# Load the model from the downloaded file
-model = load_model(model_file)
 #Testing part
 past_100_days = data_training.tail(100)
 final_df = past_100_days.append(data_testing,ignore_index = True)
