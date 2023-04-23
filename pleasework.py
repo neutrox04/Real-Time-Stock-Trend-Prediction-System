@@ -204,3 +204,8 @@ st.line_chart(df[['MACD', 'Signal Line']])
 #Explanation
 explanation = "The **MACD** is a popular technical indicator that is used to identify changes in momentum and trend in a stock. It is calculated by subtracting the 26-day exponential moving average (EMA) from the 12-day EMA. A 9-day EMA of the MACD, called the **signal line**, is then plotted on top of the MACD line, which can be used as a trigger for buy and sell signals. When the MACD line crosses above the signal line, it is considered a bullish signal, and when it crosses below the signal line, it is considered a bearish signal. The MACD histogram, which is the difference between the MACD line and the signal line, can also be used to identify changes in momentum and trend."
 st.info(explanation)
+# Define the footer text
+footer_text = "Developed by Ankit Shetty"
+
+# Add the footer to your Streamlit app
+st.footer(footer_text)
