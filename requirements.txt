@@ -11,5 +11,5 @@ yfinance==0.2.18
 tensorflow==2.10.0
 keras==2.10.0
 streamlit==1.17.0
-protobuf==3.9.3
+protobuf==3.9.2
 
