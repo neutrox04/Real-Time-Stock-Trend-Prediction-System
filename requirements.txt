@@ -9,6 +9,6 @@ ta==0.10.2
 textblob==0.15.3
 tf==1.0.0
 yfinance==0.2.18
-tensorflow==2.11.1
+tensorflow
 keras
-protobuf==3.19.1
+
